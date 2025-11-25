@@ -1,6 +1,8 @@
+
 package br.com.senacrs;
 
 public class CalculoDiaria implements CalculoValor {
+
     private double valorDiaria;
 
     public CalculoDiaria(double valorDiaria) {

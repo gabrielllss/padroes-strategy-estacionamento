@@ -1,6 +1,7 @@
 package br.com.senacrs;
 
 public class CalculoHora implements CalculoValor {
+
     private double valorHora;
 
     public CalculoHora(double valorHora) {
@@ -13,3 +14,4 @@ public class CalculoHora implements CalculoValor {
         return valorHora * horas;
     }
 }
+
